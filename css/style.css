@@ -1,128 +1,85 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-.body {
+body {
     width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
     font-family: 'Lato', sans-serif;
 }
 
-.header {
+.container {
     background: #222222;
     height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 250px;
+    margin-right: 50px;
 }
 
 .header_icons {
     display: flex;
+    justify-content: center;
     list-style: none;
+    gap: 33px;
+    padding-right: 250px;
+    margin-left: 800px;
+}
+
+.brand_img_decor {
+    display: grid;
+    grid-template-columns: 800px 800px;
     justify-content: center;
 }
 
-.logo {
-    width: 44px;
-    height: 38px;
-    padding-top: 18px;
-    padding-right: 41px;
-}
-
-.search {
-    width: 26px;
-    height: 27px;
-    padding-top: 28px;
-    padding-right: 50%;
-    padding: auto;
-}
-
-.menu {
-    width: 32px;
-    height: 23px;
-    padding-top: 30px;
-    padding-right: 33px;
-}
-
-.account {
-    width: 29px;
-    height: 29px;
-    padding-top: 26px;
-    padding-right: 33px;
-}
-
-.bag {
-    width: 32px;
-    height: 29px;
-    padding-top: 26px;
-}
-
-.brand_part {
-    display: flex;
-    list-style: none;
+.brand_grid {
     background: #F1E4E6;
-    height: 764px;
 }
 
 .brand_img {
     height: 764px;
-    width: 100%;
-    margin: auto;
 }
 
-.brand_head_decor {
-    margin-right: 30%;
-}
-
-.decor_head {
-    display: flex;
-    margin-top: 290px;
-    list-style: none;
-    gap: 16px;
+.decor_line {
+    text-align: left;
+    padding-top: 250px;
+    position: relative;
 }
 
 .brand_head {
-    width: 377px;
-    height: 93px;
+    text-align: left;
+    margin-top: -95px;
+    margin-left: 20px;
+    position: absolute;
+    font-style: normal;
     font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 44px;
+    line-height: 53px;
     color: #222222;
     text-transform: uppercase;
 }
 
 .of_luxerious_fasion {
-    margin-top: -20px;
-}
-
-.of_luxerious {
+    font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #222222;
-    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .fasion {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
     color: #F16D7F;
-    text-transform: uppercase;
 }
 
-.content_block {
-    height: 2086px;
-}
-
-.block_for {
-    display: flex;
-    list-style: none;
+.types_products {
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
     justify-content: center;
     gap: 30px;
-}
-
-.for_women {
-    padding-top: 65px;
 }
 
 .for_women_link {
@@ -135,9 +92,6 @@
     height: 50px;
     margin-top: -155px;
     margin-left: 103px;
-}
-
-.women_text_1 {
     text-align: center;
 }
 
@@ -157,23 +111,16 @@
     color: #F16D7F;
 }
 
-.for_men {
-    padding-top: 65px;
-}
-
 .for_men_link {
     text-decoration: none;
 }
 
 .for_men_texts {
     position: relative;
-    width: 110px;
+    width: 154px;
     height: 50px;
     margin-top: -155px;
-    margin-left: 125px;
-}
-
-.men_text_1 {
+    margin-left: 103px;
     text-align: center;
 }
 
@@ -193,20 +140,17 @@
     color: #F16D7F;
 }
 
-.for_kids {
-    padding-top: 65px;
-}
-
 .for_kids_link {
     text-decoration: none;
 }
 
 .for_kids_texts {
     position: relative;
-    width: 115px;
+    width: 154px;
     height: 50px;
     margin-top: -155px;
-    margin-left: 123px;
+    margin-left: 103px;
+    text-align: center;
 }
 
 .for_kids_text_1 {
@@ -215,10 +159,6 @@
     line-height: 19px;
     text-transform: uppercase;
     color: white;
-}
-
-.kids_text_2 {
-    text-align: center;
 }
 
 .for_kids_text_2 {
@@ -231,7 +171,7 @@
 
 .accesories {
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .accesories_link {
@@ -243,7 +183,7 @@
     width: 170px;
     height: 50px;
     margin-top: -115px;
-    margin-left: 715px;
+    margin-left: 485px;
 }
 
 .accesories_text_1 {
@@ -289,7 +229,7 @@
     grid-template-columns: 360px 360px 360px;
     gap: 30px;
     margin-top: 48px;
-    margin-left: 230px;
+    justify-content: center;
 }
 
 .item {
@@ -493,6 +433,7 @@
     margin-top: 48.5px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .text_all_product {
@@ -502,4 +443,187 @@
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        padding-left: 150px;
+        margin-right: 50px;
+    }
+    
+    .header_icons {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 33px;
+        padding-right: 150px;
+        margin-left: 400px;
+    }
+    
+    .brand_img_decor {
+        display: grid;
+        grid-template-columns: 384px 384px;
+        justify-content: center;
+    }
+
+    .brand_grid {
+        background: #F1E4E6;
+    }
+
+    .brand_img {
+        height: 300px;
+    }
+
+    .decor_line {
+        text-align: left;
+        padding-top: 100px;
+        position: relative;
+    }
+    
+    .brand_head {
+        text-align: left;
+        margin-top: -90px;
+        margin-left: 20px;
+        position: absolute;
+    }
+
+    .types_products {
+        padding-top: 65px;
+        display: grid;
+        grid-template-columns: 232px 232px 232px;
+        justify-content: center;
+        gap: 19px;
+    }
+
+    .womenimg {
+        height: 167px;
+    }
+
+    .menimg {
+        height: 167px;
+    }
+
+    .kidsimg {
+        height: 167px;
+    }
+
+    .accesimg {
+        height: 116px;
+    }
+
+    .for_women_texts {
+        position: relative;
+        width: 154px;
+        height: 50px;
+        margin-top: -115px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    .for_women_text_1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .for_women_text_2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F16D7F;
+    }
+    
+    .for_men_texts {
+        position: relative;
+        width: 154px;
+        height: 50px;
+        margin-top: -115px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    .for_men_text_1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .for_men_text_2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F16D7F;
+    }
+    
+    .for_kids_texts {
+        position: relative;
+        width: 154px;
+        height: 50px;
+        margin-top: -115px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    .for_kids_text_1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .for_kids_text_2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F16D7F;
+    }
+    
+    .accesories {
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .accesories_texts {
+        position: relative;
+        width: 170px;
+        height: 50px;
+        margin-top: -90px;
+        margin-left: 290px;
+    }
+    
+    .accesories_text_1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .accesories_text2 {
+        text-align: center;
+    }
+    
+    .accesories_text_2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F16D7F;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: 360px 360px;
+        gap: 30px;
+        margin-top: 48px;
+        justify-content: center;
+    }
 }
