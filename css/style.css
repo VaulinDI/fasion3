@@ -627,3 +627,200 @@ body {
         justify-content: center;
     }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .logo {
+        margin-left: 100px;
+    }
+    
+    .header_icons {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 33px;
+        padding-right: 350px;
+        margin-left: 200px;
+    }
+    
+    .brand_img_decor {
+        display: grid;
+        grid-template-columns: 375px;
+        grid-template-rows: 360px;
+        justify-content: center;
+    }
+
+    .brand_grid {
+        background: #F1E4E6;
+    }
+
+    .brand_img {
+        height: 0px;
+    }
+
+    .brand_decor {
+        margin-top: -235px;
+        position: relative;
+    }
+
+    .decor_line {
+        text-align: left;
+        padding-top: 0px;
+        position: relative;
+        padding-left: 40px;
+    }
+    
+    .brand_head {
+        text-align: left;
+        margin-top: -90px;
+        margin-left: 70px;
+        position: absolute;
+    }
+
+    .types_products {
+        padding-top: 65px;
+        display: grid;
+        grid-template-columns: 343px;
+        justify-content: center;
+        gap: 130px;
+    }
+
+    .womenimg {
+        height: 247px;
+    }
+
+    .menimg {
+        height: 247px;
+    }
+
+    .kidsimg {
+        height: 247px;
+    }
+
+    .accesimg {
+        height: 111px;
+    }
+
+    .for_women_texts {
+        position: relative;
+        width: 154px;
+        height: 50px;
+        margin-top: -155px;
+        margin-left: 80px;
+        text-align: center;
+    }
+    
+    .for_women_text_1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .for_women_text_2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F16D7F;
+    }
+    
+    .for_men_texts {
+        position: relative;
+        width: 154px;
+        height: 50px;
+        margin-top: -155px;
+        margin-left: 90px;
+        text-align: center;
+    }
+    
+    .for_men_text_1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .for_men_text_2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F16D7F;
+    }
+    
+    .for_kids_texts {
+        position: relative;
+        width: 154px;
+        height: 50px;
+        margin-top: -155px;
+        margin-left: 90px;
+        text-align: center;
+    }
+    
+    .for_kids_text_1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .for_kids_text_2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F16D7F;
+    }
+    
+    .accesories {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .accesimg {
+        width: 343px;
+    }
+    
+    .accesories_texts {
+        position: relative;
+        width: 170px;
+        height: 50px;
+        margin-top: -90px;
+        margin-left: 85px;
+    }
+    
+    .accesories_text_1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .accesories_text2 {
+        text-align: center;
+    }
+    
+    .accesories_text_2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #F16D7F;
+    }
+
+    .header_items {
+        margin-top: 100px;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: 360px;
+        gap: 30px;
+        margin-top: 65px;
+        justify-content: center;
+    }
+}
